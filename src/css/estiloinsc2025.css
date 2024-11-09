@@ -1,0 +1,47 @@
+body{font-family: 'Roboto', sans-serif; text-align:center; background:#CCC;}
+
+a:link { color: #fff; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px solid #000; border-radius:10px;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2); background-color:#2271b3;}
+a:visited { color:#000; text-decoration:none; display:block; width:50%; text-align:center; line-height:30px; border:1px solid #000; margin-left:auto; margin-right:auto; border-radius:10px;text-shadow:}
+a:hover { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px dashed #000; background-color:#00AAE4; border-radius:10px; text-shadow:none;}
+a:active { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px solid #000; border-radius:10px;}
+
+/* RESPONSIVE
+   ========================================================================= */
+
+   /* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 320px) { 
+    a:link { color: #fff; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:95%; text-align:center; line-height:60px; border:2px solid #000; border-radius:10px;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2); background-color:#2271b3; font-size: 20px;}
+    a:visited { color:#000; text-decoration:none; display:block; width:95%; text-align:center; line-height:60px; border:1px solid #000; margin-left:auto; margin-right:auto; border-radius:10px; font-size: 20px;}
+    a:hover { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:95%; text-align:center; line-height:60px; border:2px dashed #000; background-color:#00AAE4; border-radius:10px; text-shadow:none; font-size: 20px;}
+    a:active { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:95%; text-align:center; line-height:60px; border:2px solid #000; border-radius:10px; font-size: 20px;}
+
+}
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) { 
+    a:link { color: #fff; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:85%; text-align:center; line-height:50px; border:2px solid #000; border-radius:10px;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2); background-color:#2271b3;}
+    a:visited { color:#000; text-decoration:none; display:block; width:85%; text-align:center; line-height:50px; border:1px solid #000; margin-left:auto; margin-right:auto; border-radius:10px;text-shadow:}
+    a:hover { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:85%; text-align:center; line-height:50px; border:2px dashed #000; background-color:#00AAE4; border-radius:10px; text-shadow:none;}
+    a:active { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:85%; text-align:center; line-height:50px; border:2px solid #000; border-radius:10px;}
+
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+    a:link { color: #fff; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:65%; text-align:center; line-height:35px; border:2px solid #000; border-radius:10px;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2); background-color:#2271b3;}
+    a:visited { color:#000; text-decoration:none; display:block; width:65%; text-align:center; line-height:35px; border:1px solid #000; margin-left:auto; margin-right:auto; border-radius:10px;text-shadow:}
+    a:hover { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:65%; text-align:center; line-height:35px; border:2px dashed #000; background-color:#00AAE4; border-radius:10px; text-shadow:none;}
+    a:active { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:65%; text-align:center; line-height:35px; border:2px solid #000; border-radius:10px;}
+ }
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+    a:link { color: #fff; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px solid #000; border-radius:10px;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.2); background-color:#2271b3;}
+    a:visited { color:#000; text-decoration:none; display:block; width:50%; text-align:center; line-height:30px; border:1px solid #000; margin-left:auto; margin-right:auto; border-radius:10px;text-shadow:}
+    a:hover { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px dashed #000; background-color:#00AAE4; border-radius:10px; text-shadow:none;}
+    a:active { color:#000; text-decoration:none; display:block; margin-left:auto; margin-right:auto; width:50%; text-align:center; line-height:30px; border:2px solid #000; border-radius:10px;}
+ }

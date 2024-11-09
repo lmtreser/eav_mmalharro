@@ -1,0 +1,139 @@
+body{
+	text-align:center;
+	background:#FFF
+}
+.iso {
+	background-color:#000;
+	width:414px;
+	height:214px;
+	border:5px solid transparent;
+	position: absolute;
+  	top: 50%; margin-top:-107px;
+  	left: 50%; margin-left:-207px;
+	overflow:hidden;/*todos los elementos que sobrepasan el contorno desaparecen*/
+    text-align: center;
+}
+.rojo {
+	background:#000;
+	position:absolute;
+	left:7px;
+	top:7px;
+	width:200px;
+	height:200px;
+	z-index:10;
+	display:inline-block;
+	overflow:hidden;
+}
+.baston1 {
+	background:#f00;
+	position: relative;
+	left:-15px;
+	top:40px;
+	width:240px;
+	height:24px;
+	z-index:11;
+	-moz-transform: rotate(-21deg);
+    -webkit-transform: rotate(-21deg);
+    -o-transform: rotate(-21deg);
+    -ms-transform: rotate(-21deg);
+    transform: rotate(-21deg);	
+}
+.baston2 {
+	background:#f00;
+	position: relative;
+	left:-15px;
+	top:113px;
+	width:240px;
+	height:24px;
+	z-index:11;
+	-moz-transform: rotate(21deg);
+	-webkit-transform: rotate(21deg);
+	-o-transform: rotate(21deg);
+	-ms-transform: rotate(21deg);
+	transform: rotate(21deg);	
+}
+.baston3 {
+	background:#f00;
+	position: relative;
+	left:80px;
+	top:39px;
+	width:120px;
+	height:24px;
+	z-index:11;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);	
+}
+.amarillo {
+	background:#FF0;
+	position:absolute;
+	left:207px;
+	top:7px;
+	width:200px;
+	height:200px;
+	z-index:10;
+	display:inline-block;
+	overflow:hidden;	
+}
+.baston4 {
+	background:#000;
+	position: relative;
+	left:-15px;
+	top:44px;
+	width:240px;
+	height:24px;
+	z-index:11;
+	-moz-transform: rotate(21deg);
+    -webkit-transform: rotate(21deg);
+    -o-transform: rotate(21deg);
+    -ms-transform: rotate(21deg);
+    transform: rotate(21deg);	
+}
+.baston5 {
+	background:#000;
+	position: relative;
+	left:-15px;
+	top:109px;
+	width:240px;
+	height:24px;
+	z-index:11;
+	-moz-transform: rotate(-21deg);
+	-webkit-transform: rotate(-21deg);
+	-o-transform: rotate(-21deg);
+	-ms-transform: rotate(-21deg);
+	transform: rotate(-21deg);	
+}
+.circulo {
+	width:71px;
+	height:71px;
+	background:#000;
+	position:relative;
+	left:-35px;
+	top:17px;
+	border-radius:50%;
+	z-index:12;
+	
+}
+.punto {
+	width:70px;
+	height:70px;
+	background:#000;
+	border-radius:50%;
+	position: absolute;
+  	top: 50%; margin-top:-35px;
+  	left: 50%; margin-left:-35px;
+	
+}	
+img, h1 {
+	display:inline-block;
+	font-size:60px;
+	color:#06F;
+	}
+
+container {
+	width:90%;
+	margin: 0 auto;
+	display:block;
+	}	
