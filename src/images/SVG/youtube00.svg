@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Custom Design -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     x="0px" y="0px" width="199.027px" height="199.019px" 
+     viewBox="0 0 199.027 199.019" enable-background="new 0 0 199.027 199.019" 
+     xml:space="preserve">
+     
+    <g id="Capa_1" display="none">
+        <!-- Imagen rasterizada opcional -->
+        <image display="inline" overflow="visible" width="720" height="720" 
+               xlink:href="C:\Users\Rociu\Pictures\youtube_icon.png"  
+               transform="matrix(0.2764 0 0 0.2764 0 0)">
+        </image>
+    </g>
+    
+    <g id="Capa_2">
+        <!-- Fondo rojo con bordes redondeados -->
+        <path fill="#1D1D1B" d="M27.455,0C27.455,0,0,2.167,0,27.167S0,170,0,170s1.788,29,28.288,29s137.167,0,137.167,0
+            S199,200.75,199,171s0-138.5,0-138.5S200.955,0,171.455,0S27.455,0,27.455,0z"/>
+        
+        <!-- Triángulo blanco (Play) -->
+        <path fill="#FFFFFF" d="M70,60c0,0,0,80,0,80s70-40,70-40S70,60,70,60z"/>
+    </g>
+</svg>
